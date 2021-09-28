@@ -9,9 +9,7 @@ if HEROKU:
     load_dotenv()  # take environment variables from .env.
     API_ID = int(environ["API_ID"])
     API_HASH = environ["API_HASH"]
-    SESSION_STRING = environ[
-        "SESSION_STRING"
-    ]  # Check Readme for session
+    SESSION_STRING = environ["SESSION_STRING"]  # Check Readme for session
     ARQ_API_KEY = environ["ARQ_API_KEY"]
     CHAT_ID = int(environ["CHAT_ID"])
     DEFAULT_SERVICE = environ.get("DEFAULT_SERVICE") or "youtube"
